@@ -1,0 +1,30 @@
+{
+  "name": "shejimoshi",
+  "version": "1.0.0",
+  "description": "面向对象思想，UML类图   5大类设计原则，23种设计模式   能应对前端面试中相关的面试题   提升个人能力",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development",
+    "star":"http-server -p 8880"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/plugin-proposal-decorators": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "babel-loader": "^8.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "core-decorators": "^0.20.0",
+    "html-webpack-plugin": "^5.5.3",
+    "http-server": "^14.1.1",
+    "javascript-state-machine": "^3.1.0",
+    "jquery": "^3.7.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

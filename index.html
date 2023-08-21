@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script  src="https://cdn.bootcss.com/jquery/3.3.0/jquery.js"></script>
+    <script>
+        // var callbacks = $.Callbacks()
+        // callbacks.add(function(info){
+        //     console.log('fn1',info)
+        // })
+        // callbacks.add(function(info){
+        //     console.log('fn2',info)
+        // })
+        // callbacks.add(function(info){
+        //     console.log('fn3',info)
+        // })
+
+        // callbacks.fire('gogogo')
+
+        var arr = [1,2,3]
+        var nodeList = document.getElementsByTagName('a')
+        var $a = $('a')
+
+        //1 遍历数组
+        // arr.forEach(function(item){
+        //     console.log(item)
+        // })
+
+        //2 遍历nodeList
+        // var i,length = nodeList.length
+        // for(i = 0;i<length;i++){
+        //     console.log(nodeList[i])
+        // }
+
+        //3 遍历$a
+        // $a.each(function(key,elem){
+        //     console.log(key,elem)
+        // })
+
+        //能够遍历上面3类
+        // function each(data){
+        //     var $data = $(data) //生成迭代器
+        //     $data.each(function(key,val){
+        //         console.log(key,val)
+        //     })
+        // }
+
+        // each(arr)
+        // each(nodeList)
+        // each($a)
+
+        //顺序遍历有序集合
+        //使用者不必知道集合的内部结构
+    </script>
+</body>
+</html>

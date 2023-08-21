@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "name":"<js 面试题>",
+        "price":149,
+        "discount":1
+    },
+    {
+        "id":1,
+        "name":"<js 高级面试>",
+        "price":366,
+        "discount":1
+    },
+    {
+        "id":3,
+        "name":"<React 模拟大众点评 webapp>",
+        "price":248,
+        "discount":0
+    },
+    {
+        "id":4,
+        "name":"<Zepto 设计与源码解读>",
+        "price":0,
+        "discount":0
+    }
+
+]
